@@ -1,11 +1,11 @@
 ### Sqoop
 >主要用于在Hadoop(Hive)与传统的数据库(mysql、postgresql...)间进行数据的传递，可以将一个关系型数据库（例如 ： MySQL ,Oracle ,Postgres等）中的数据导进到Hadoop的HDFS中，也可以将HDFS的数据导进到关系型数据库中。
 
-```
-\: 分行
-```
+sqoop是apache旗下一款**“Hadoop和关系数据库服务器之间传送数据”**的工具。
 
+**导入数据**：MySQL，Oracle导入数据到Hadoop的HDFS、HIVE、HBASE等数据存储系统；
 
+**导出数据：**从Hadoop的文件系统中导出数据到关系数据库mysql等
 
 #### Sqoop初体验
 
@@ -14,6 +14,8 @@
 bin/sqoop list-databases --help
 
 > 列出windows主机所有的数据库  注意ip 用户 密码是否一致
+>
+> \:   换行继续输入
 
 bin/sqoop list-databases \
 
