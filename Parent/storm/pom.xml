@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>storm</artifactId>
-
+<!-- github警告所以注释, 使用时放开
     <dependencies>
         <dependency>
             <groupId>org.apache.storm</groupId>
@@ -18,4 +18,5 @@
             <version>1.1.1</version>
         </dependency>
     </dependencies>
+-->
 </project>
